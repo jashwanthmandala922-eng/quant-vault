@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">PQ Vault Dev</string>
+    <string name="there_was_an_issue_validating_the_registration_token" translatable="false">Issue validating token</string>
+
+    <!-- Vault Filter Types -->
+    <string name="all">All</string>
+    <string name="all_vaults">All Vaults</string>
+    <string name="my_vault">My Vault</string>
+    <string name="vaults">Vaults</string>
+
+    <!-- Error Messages -->
+    <string name="failed_to_decrypt_cipher_contact_support">Failed to decrypt. Contact support if the problem persists.</string>
+    <string name="generic_error_message">An error occurred. Please try again.</string>
+    <string name="an_error_has_occurred">An error has occurred</string>
+    <string name="error_cannot_decrypt">Cannot decrypt</string>
+    <string name="invalid_master_password">Invalid master password</string>
+    <string name="internet_connection_required_title">Internet Connection Required</string>
+    <string name="internet_connection_required_message">Please connect to the internet to continue.</string>
+    <string name="try_again">Try Again</string>
+    <string name="syncing">Syncing…</string>
+    <string name="verification_code_totp">Verification Code (TOTP)</string>
+
+    <!-- Month Names -->
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <!-- Identity Titles -->
+    <string name="mr">Mr.</string>
+    <string name="mrs">Mrs.</string>
+    <string name="ms">Ms.</string>
+    <string name="mx">Mx.</string>
+    <string name="dr">Dr.</string>
+
+    <!-- Linked Field Types -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="expiration_month">Expiration Month</string>
+    <string name="expiration_year">Expiration Year</string>
+    <string name="security_code">Security Code</string>
+    <string name="brand">Brand</string>
+    <string name="number">Number</string>
+    <string name="title">Title</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="address1">Address 1</string>
+    <string name="address2">Address 2</string>
+    <string name="address3">Address 3</string>
+    <string name="city_town">City/Town</string>
+    <string name="state_province">State/Province</string>
+    <string name="zip_postal_code">ZIP/Postal Code</string>
+    <string name="country">Country</string>
+    <string name="company">Company</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="ssn">Social Security Number</string>
+    <string name="passport_number">Passport Number</string>
+    <string name="license_number">License Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="full_name">Full Name</string>
+
+    <!-- Vault Trailing Icons -->
+    <string name="collections">Collections</string>
+    <string name="attachments">Attachments</string>
+
+    <!-- Flight Recorder -->
+    <string name="flight_recorder_banner_message">Your data is being synced.</string>
+    <string name="flight_recorder_banner_title">Syncing Vault</string>
+    <string name="go_to_settings">Go to Settings</string>
+
+    <!-- Folder -->
+    <string name="folder_none">No Folder</string>
+
+    <!-- Premium -->
+    <string name="premium_subscription_required">Premium subscription required</string>
+
+    <!-- Search -->
+    <string name="search_vault">Search vault</string>
+
+    <!-- Navigation -->
+    <string name="back">Back</string>
+
+    <!-- Actions -->
+    <string name="copy">Copy</string>
+    <string name="sync">Sync</string>
+    <string name="lock">Lock</string>
+
+    <!-- Auth Request Notifications -->
+    <string name="pending_log_in_requests">Pending log in requests</string>
+    <string name="log_in_requested">Log in requested</string>
+    <string name="confim_log_in_attemp_for_x">Confirm log in attempt for %1$s</string>
+    <string name="confirm_log_in">Confirm log in</string>
+    <string name="ic_notification">Notification</string>
+</resources>

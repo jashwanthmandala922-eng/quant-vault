@@ -1,0 +1,45 @@
+[package]
+name = "securevault-core"
+version = "1.0.0"
+edition = "2021"
+description = "Post-quantum password manager core library"
+license = "MIT"
+authors = ["PQ Vault Team"]
+
+[dependencies]
+liboqs = "0.9"
+rand = "0.8"
+zeroize = { version = "1.7", features = ["derive"] }
+aes-gcm = "0.10"
+chacha20poly1305 = "0.10"
+argon2 = "0.5"
+hkdf = "0.12"
+sha2 = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.8", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+base32 = "0.5"
+totp-lite = "2.0"
+thiserror = "1.0"
+tokio = { version = "1.36", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+async-trait = "0.1"
+
+[dev-dependencies]
+criterion = "0.5"
+tempfile = "3.10"
+
+[[bench]]
+name = "crypto"
+harness = false
+
+[lib]
+name = "securevault_core"
+path = "src/lib.rs"
+
+[features]
+default = ["pq"]
+pq = ["liboqs"]
+classic = []

@@ -1,0 +1,10 @@
+# PQ Vault - User Properties Template
+# Copy this file to user.properties and add your GitHub token
+
+# GitHub token for downloading Bitwarden SDK from GitHub Packages
+# Generate a token at: https://github.com/settings/tokens
+# Required scopes: read:packages
+gitHubToken=YOUR_GITHUB_TOKEN_HERE
+
+# Enable local SDK (use maven local instead of GitHub Packages)
+# localSdk=false

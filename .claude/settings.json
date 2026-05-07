@@ -1,0 +1,14 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "extraKnownMarketplaces": {
+    "quantvault-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "quantvault/ai-plugins"
+      }
+    }
+  }
+}

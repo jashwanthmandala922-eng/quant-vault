@@ -1,0 +1,371 @@
+package com.quantvault.ui.platform.theme.color
+
+import androidx.compose.material3.ColorScheme
+import androidx.compose.ui.graphics.Color
+
+/**
+ * The default [QuantVaultColorScheme] for dark mode.
+ */
+val darkQuantVaultColorScheme: QuantVaultColorScheme = QuantVaultColorScheme(
+    isDarkTheme = true,
+    text = QuantVaultColorScheme.TextColors(
+        primary = PrimitiveColors.gray200,
+        secondary = PrimitiveColors.gray500,
+        interaction = PrimitiveColors.blue400,
+        reversed = PrimitiveColors.gray1200,
+        codePink = PrimitiveColors.pink200,
+        codeBlue = PrimitiveColors.blue400,
+    ),
+    background = QuantVaultColorScheme.BackgroundColors(
+        primary = PrimitiveColors.gray1200,
+        secondary = PrimitiveColors.gray1100,
+        tertiary = PrimitiveColors.gray1000,
+        alert = PrimitiveColors.gray300,
+        scrim = PrimitiveColors.gray1400.copy(alpha = 0.4f),
+        pressed = PrimitiveColors.gray500,
+    ),
+    stroke = QuantVaultColorScheme.StrokeColors(
+        divider = PrimitiveColors.gray900,
+        border = PrimitiveColors.blue400,
+        segmentedNav = PrimitiveColors.gray900,
+    ),
+    icon = QuantVaultColorScheme.IconColors(
+        primary = PrimitiveColors.gray500,
+        secondary = PrimitiveColors.blue400,
+        reversed = PrimitiveColors.gray1100,
+        badgeBackground = PrimitiveColors.pink200,
+        badgeForeground = PrimitiveColors.gray1100,
+        navActiveAccent = PrimitiveColors.blue500,
+    ),
+    filledButton = QuantVaultColorScheme.FilledButtonColors(
+        background = PrimitiveColors.blue400,
+        backgroundDisabled = PrimitiveColors.gray1000,
+        backgroundReversed = PrimitiveColors.gray1100,
+        foreground = PrimitiveColors.gray1100,
+        foregroundDisabled = PrimitiveColors.gray900,
+        foregroundReversed = PrimitiveColors.blue400,
+    ),
+    outlineButton = QuantVaultColorScheme.OutlineButtonColors(
+        border = PrimitiveColors.blue400,
+        borderDisabled = PrimitiveColors.gray900,
+        borderReversed = PrimitiveColors.gray1100,
+        foreground = PrimitiveColors.blue400,
+        foregroundDisabled = PrimitiveColors.gray900,
+        foregroundReversed = PrimitiveColors.gray1100,
+    ),
+    toggleButton = QuantVaultColorScheme.ToggleButtonColors(
+        backgroundOn = PrimitiveColors.blue400,
+        backgroundOff = PrimitiveColors.gray900,
+        switch = PrimitiveColors.gray100,
+    ),
+    sliderButton = QuantVaultColorScheme.SliderButtonColors(
+        knobBackground = PrimitiveColors.blue400,
+        knobLabel = PrimitiveColors.gray1100,
+        filled = PrimitiveColors.blue400,
+        unfilled = PrimitiveColors.gray900,
+    ),
+    status = QuantVaultColorScheme.StatusColors(
+        strong = PrimitiveColors.green200,
+        good = PrimitiveColors.blue400,
+        weak1 = PrimitiveColors.red200,
+        weak2 = PrimitiveColors.yellow200,
+        error = PrimitiveColors.red200,
+    ),
+    statusBadge = QuantVaultColorScheme.StatusBadgeColors(
+        success = QuantVaultColorScheme.StatusBadgeVariantColors(
+            border = PrimitiveColors.green800,
+            background = PrimitiveColors.green950,
+            text = PrimitiveColors.green150,
+        ),
+        error = QuantVaultColorScheme.StatusBadgeVariantColors(
+            border = PrimitiveColors.red800,
+            background = PrimitiveColors.red950,
+            text = PrimitiveColors.red150,
+        ),
+        warning = QuantVaultColorScheme.StatusBadgeVariantColors(
+            border = PrimitiveColors.orange800,
+            background = PrimitiveColors.orange950,
+            text = PrimitiveColors.orange200,
+        ),
+    ),
+    illustration = QuantVaultColorScheme.IllustrationColors(
+        outline = PrimitiveColors.blue500,
+        backgroundPrimary = PrimitiveColors.blue200,
+        backgroundSecondary = PrimitiveColors.blue300,
+        backgroundTertiary = PrimitiveColors.gray200,
+        accent = PrimitiveColors.yellow200,
+        logo = PrimitiveColors.gray100,
+    ),
+)
+
+/**
+ * The default [QuantVaultColorScheme] for light mode.
+ */
+val lightQuantVaultColorScheme: QuantVaultColorScheme = QuantVaultColorScheme(
+    isDarkTheme = false,
+    text = QuantVaultColorScheme.TextColors(
+        primary = PrimitiveColors.gray1300,
+        secondary = PrimitiveColors.gray700,
+        interaction = PrimitiveColors.blue500,
+        reversed = PrimitiveColors.gray100,
+        codePink = PrimitiveColors.pink100,
+        codeBlue = PrimitiveColors.blue500,
+    ),
+    background = QuantVaultColorScheme.BackgroundColors(
+        primary = PrimitiveColors.gray200,
+        secondary = PrimitiveColors.gray100,
+        tertiary = PrimitiveColors.blue100,
+        alert = PrimitiveColors.blue700,
+        scrim = PrimitiveColors.gray1400.copy(alpha = 0.4f),
+        pressed = PrimitiveColors.gray1000,
+    ),
+    stroke = QuantVaultColorScheme.StrokeColors(
+        divider = PrimitiveColors.gray400,
+        border = PrimitiveColors.blue500,
+        segmentedNav = PrimitiveColors.blue100,
+    ),
+    icon = QuantVaultColorScheme.IconColors(
+        primary = PrimitiveColors.gray700,
+        secondary = PrimitiveColors.blue500,
+        reversed = PrimitiveColors.gray100,
+        badgeBackground = PrimitiveColors.pink100,
+        badgeForeground = PrimitiveColors.gray100,
+        navActiveAccent = PrimitiveColors.blue100,
+    ),
+    filledButton = QuantVaultColorScheme.FilledButtonColors(
+        background = PrimitiveColors.blue500,
+        backgroundDisabled = PrimitiveColors.gray400,
+        backgroundReversed = PrimitiveColors.gray100,
+        foreground = PrimitiveColors.gray100,
+        foregroundDisabled = PrimitiveColors.gray500,
+        foregroundReversed = PrimitiveColors.blue500,
+    ),
+    outlineButton = QuantVaultColorScheme.OutlineButtonColors(
+        border = PrimitiveColors.blue500,
+        borderDisabled = PrimitiveColors.gray500,
+        borderReversed = PrimitiveColors.gray100,
+        foreground = PrimitiveColors.blue500,
+        foregroundDisabled = PrimitiveColors.gray500,
+        foregroundReversed = PrimitiveColors.gray100,
+    ),
+    toggleButton = QuantVaultColorScheme.ToggleButtonColors(
+        backgroundOn = PrimitiveColors.blue500,
+        backgroundOff = PrimitiveColors.gray600,
+        switch = PrimitiveColors.gray100,
+    ),
+    sliderButton = QuantVaultColorScheme.SliderButtonColors(
+        knobBackground = PrimitiveColors.blue500,
+        knobLabel = PrimitiveColors.gray100,
+        filled = PrimitiveColors.blue500,
+        unfilled = PrimitiveColors.gray300,
+    ),
+    status = QuantVaultColorScheme.StatusColors(
+        strong = PrimitiveColors.green300,
+        good = PrimitiveColors.blue500,
+        weak1 = PrimitiveColors.red300,
+        weak2 = PrimitiveColors.yellow300,
+        error = PrimitiveColors.red300,
+    ),
+    statusBadge = QuantVaultColorScheme.StatusBadgeColors(
+        success = QuantVaultColorScheme.StatusBadgeVariantColors(
+            border = PrimitiveColors.green150,
+            background = PrimitiveColors.green050,
+            text = PrimitiveColors.green400,
+        ),
+        error = QuantVaultColorScheme.StatusBadgeVariantColors(
+            border = PrimitiveColors.red150,
+            background = PrimitiveColors.red050,
+            text = PrimitiveColors.red400,
+        ),
+        warning = QuantVaultColorScheme.StatusBadgeVariantColors(
+            border = PrimitiveColors.orange200,
+            background = PrimitiveColors.orange050,
+            text = PrimitiveColors.orange700,
+        ),
+    ),
+    illustration = QuantVaultColorScheme.IllustrationColors(
+        outline = PrimitiveColors.blue700,
+        backgroundPrimary = PrimitiveColors.blue100,
+        backgroundSecondary = PrimitiveColors.blue200,
+        backgroundTertiary = PrimitiveColors.gray100,
+        accent = PrimitiveColors.yellow200,
+        logo = PrimitiveColors.blue500,
+    ),
+)
+
+/**
+ * Creates a [QuantVaultColorScheme] based on dynamic Material You colors.
+ */
+@Suppress("LongMethod")
+fun dynamicQuantVaultColorScheme(
+    materialColorScheme: ColorScheme,
+    isDarkTheme: Boolean,
+): QuantVaultColorScheme {
+    val defaultTheme = if (isDarkTheme) darkQuantVaultColorScheme else lightQuantVaultColorScheme
+    return QuantVaultColorScheme(
+        isDarkTheme = isDarkTheme,
+        text = QuantVaultColorScheme.TextColors(
+            primary = materialColorScheme.onBackground,
+            secondary = materialColorScheme.onSurface,
+            interaction = materialColorScheme.primary,
+            reversed = materialColorScheme.onTertiary,
+            codePink = defaultTheme.text.codePink,
+            codeBlue = defaultTheme.text.codeBlue,
+        ),
+        background = QuantVaultColorScheme.BackgroundColors(
+            primary = materialColorScheme.background,
+            secondary = materialColorScheme.surfaceContainer,
+            tertiary = materialColorScheme.surfaceContainerHighest,
+            alert = materialColorScheme.inverseSurface,
+            scrim = materialColorScheme.scrim.copy(alpha = 0.4f),
+            pressed = materialColorScheme.onSurfaceVariant,
+        ),
+        stroke = QuantVaultColorScheme.StrokeColors(
+            divider = materialColorScheme.outlineVariant,
+            border = materialColorScheme.primary,
+            segmentedNav = materialColorScheme.outline,
+        ),
+        icon = QuantVaultColorScheme.IconColors(
+            primary = materialColorScheme.onBackground,
+            secondary = materialColorScheme.primary,
+            reversed = materialColorScheme.inversePrimary,
+            badgeBackground = materialColorScheme.error,
+            badgeForeground = materialColorScheme.onError,
+            navActiveAccent = materialColorScheme.onPrimary,
+        ),
+        filledButton = QuantVaultColorScheme.FilledButtonColors(
+            background = materialColorScheme.primary,
+            backgroundDisabled = materialColorScheme.onSurface.copy(alpha = 0.12f),
+            backgroundReversed = materialColorScheme.surfaceContainerHighest,
+            foreground = materialColorScheme.onPrimary,
+            foregroundDisabled = materialColorScheme.onSurface.copy(alpha = 0.38f),
+            foregroundReversed = materialColorScheme.onSurface,
+        ),
+        outlineButton = QuantVaultColorScheme.OutlineButtonColors(
+            border = materialColorScheme.outlineVariant,
+            borderDisabled = materialColorScheme.outlineVariant,
+            borderReversed = materialColorScheme.outlineVariant,
+            foreground = materialColorScheme.primary,
+            foregroundDisabled = materialColorScheme.onSurface,
+            foregroundReversed = materialColorScheme.inversePrimary,
+        ),
+        toggleButton = QuantVaultColorScheme.ToggleButtonColors(
+            backgroundOn = materialColorScheme.primary,
+            backgroundOff = materialColorScheme.onSurfaceVariant,
+            switch = materialColorScheme.onPrimary,
+        ),
+        sliderButton = QuantVaultColorScheme.SliderButtonColors(
+            knobBackground = materialColorScheme.primary,
+            knobLabel = materialColorScheme.onPrimary,
+            filled = materialColorScheme.primary,
+            unfilled = materialColorScheme.secondaryContainer,
+        ),
+        status = QuantVaultColorScheme.StatusColors(
+            strong = defaultTheme.status.strong,
+            good = defaultTheme.status.good,
+            weak1 = defaultTheme.status.weak1,
+            weak2 = defaultTheme.status.weak2,
+            error = defaultTheme.status.error,
+        ),
+        statusBadge = QuantVaultColorScheme.StatusBadgeColors(
+            success = defaultTheme.statusBadge.success,
+            error = defaultTheme.statusBadge.error,
+            warning = defaultTheme.statusBadge.warning,
+        ),
+        illustration = QuantVaultColorScheme.IllustrationColors(
+            outline = materialColorScheme.onSurface,
+            backgroundPrimary = if (isDarkTheme) {
+                materialColorScheme.outlineVariant
+            } else {
+                materialColorScheme.surfaceContainerHighest
+            },
+            backgroundSecondary = if (isDarkTheme) {
+                materialColorScheme.surfaceContainerHighest
+            } else {
+                materialColorScheme.outlineVariant
+            },
+            backgroundTertiary = materialColorScheme.surface,
+            accent = materialColorScheme.tertiaryContainer,
+            logo = materialColorScheme.primary,
+        ),
+    )
+}
+
+/**
+ * Derives a Material [ColorScheme] from the [QuantVaultColorScheme] using the [defaultColorScheme]
+ * as a baseline.
+ */
+fun QuantVaultColorScheme.toMaterialColorScheme(
+    defaultColorScheme: ColorScheme,
+): ColorScheme = defaultColorScheme.copy(
+    primary = this.stroke.border,
+    onSurfaceVariant = this.text.secondary,
+)
+
+/**
+ * The raw colors that support the [QuantVaultColorScheme].
+ */
+private data object PrimitiveColors {
+    val gray100: Color = Color(color = 0xFFFFFFFF)
+    val gray200: Color = Color(color = 0xFFF3F6F9)
+    val gray300: Color = Color(color = 0xFFE6E9EF)
+    val gray400: Color = Color(color = 0xFFD3D9E3)
+    val gray500: Color = Color(color = 0xFF96A3BB)
+    val gray600: Color = Color(color = 0xFF7F8FAD)
+    val gray700: Color = Color(color = 0xFF5A6D91)
+    val gray800: Color = Color(color = 0xFF79808E)
+    val gray900: Color = Color(color = 0xFF657185)
+    val gray1000: Color = Color(color = 0xFF303946)
+    val gray1100: Color = Color(color = 0xFF202733)
+    val gray1200: Color = Color(color = 0xFF121A27)
+    val gray1300: Color = Color(color = 0xFF1B2029)
+    val gray1400: Color = Color(color = 0xFF000000)
+
+    val blue100: Color = Color(color = 0xFFDBE5F6)
+    val blue200: Color = Color(color = 0xFFAAC3EF)
+    val blue300: Color = Color(color = 0xFF79A1E9)
+    val blue400: Color = Color(color = 0xFF65ABFF)
+    val blue500: Color = Color(color = 0xFF175DDC)
+    val blue600: Color = Color(color = 0xFF1A41AC)
+    val blue700: Color = Color(color = 0xFF020F66)
+
+    val green050: Color = Color(color = 0xFFF0FDF4)
+    val green100: Color = Color(color = 0xFFBFECC3)
+    val green150: Color = Color(color = 0xFFB9F8CF)
+    val green200: Color = Color(color = 0xFF6BF178)
+    val green300: Color = Color(color = 0xFF0C8018)
+    val green400: Color = Color(color = 0xFF08540F)
+    val green800: Color = Color(color = 0xFF016630)
+    val green950: Color = Color(color = 0xFF032E15)
+
+    val red050: Color = Color(color = 0xFFFEF2F2)
+    val red100: Color = Color(color = 0xFFFFECEF)
+    val red150: Color = Color(color = 0xFFFFC9C9)
+    val red200: Color = Color(color = 0xFFFF4E63)
+    val red300: Color = Color(color = 0xFFCB263A)
+    val red400: Color = Color(color = 0xFF951B2A)
+    val red800: Color = Color(color = 0xFF9F0712)
+    val red950: Color = Color(color = 0xFF460809)
+
+    val yellow100: Color = Color(color = 0xFFFFF8E4)
+    val yellow200: Color = Color(color = 0xFFFFBF00)
+    val yellow300: Color = Color(color = 0xFFAC5800)
+
+    val orange050: Color = Color(color = 0xFFFFF8F1)
+    val orange200: Color = Color(color = 0xFFFCD9BD)
+    val orange700: Color = Color(color = 0xFFB23300)
+    val orange800: Color = Color(color = 0xFF8A2203)
+    val orange950: Color = Color(color = 0xFF441600)
+
+    val pink100: Color = Color(color = 0xFFC01176)
+    val pink200: Color = Color(color = 0xFFFF8FD0)
+}
+
+
+
+
+
+
+
+
+

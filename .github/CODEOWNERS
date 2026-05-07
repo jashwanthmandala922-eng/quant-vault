@@ -1,0 +1,61 @@
+# Please sort into logical groups with comment headers. Sort groups in order of specificity.
+# For example, default owners should always be the first group.
+# Sort lines alphabetically within these groups to avoid accidentally adding duplicates.
+#
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default file owners.
+* @quantvault/team-android @brian-livefront @david-livefront
+
+# Actions and workflow changes.
+.github/ @quantvault/dept-development-mobile
+
+# Claude related files
+.claude/ @quantvault/team-ai-sme
+.github/workflows/respond.yml @quantvault/team-ai-sme
+.github/workflows/review-code.yml @quantvault/team-ai-sme
+
+# Auth
+# app/src/main/java/com/x8bit/quantvault/data/auth @quantvault/team-auth-dev
+# app/src/main/java/com/x8bit/quantvault/ui/auth @quantvault/team-auth-dev
+# app/src/test/java/com/x8bit/quantvault/data/auth @quantvault/team-auth-dev
+# app/src/test/java/com/x8bit/quantvault/ui/auth @quantvault/team-auth-dev
+
+# AutoFill
+# app/src/main/java/com/x8bit/quantvault/data/autofill @quantvault/team-autofill-dev
+# app/src/main/java/com/x8bit/quantvault/ui/autofill  @quantvault/team-autofill-dev
+# app/src/test/java/com/x8bit/quantvault/data/autofill @quantvault/team-autofill-dev
+# app/src/test/java/com/x8bit/quantvault/ui/autofill  @quantvault/team-autofill-dev
+
+# Platform
+# app/src/main/java/com/x8bit/quantvault/data/platform @quantvault/team-platform-dev
+# app/src/main/java/com/x8bit/quantvault/ui/platform  @quantvault/team-platform-dev
+# app/src/main/java/com/x8bit/quantvault/ui/QuantVaultApplication.kt @quantvault/team-platform-dev
+# app/src/main/java/com/x8bit/quantvault/ui/MainActivity.kt @quantvault/team-platform-dev
+# app/src/main/res @quantvault/team-platform-dev
+# app/src/main/AndroidManifest.xml @quantvault/team-platform-dev
+# app/src/test/java/com/x8bit/quantvault/data/platform @quantvault/team-platform-dev
+# app/src/test/java/com/x8bit/quantvault/ui/platform  @quantvault/team-platform-dev
+# app/src/.gitignore  @quantvault/team-platform-dev
+# app/src/build.gradle.kts  @quantvault/team-platform-dev
+# app/src/proguard-rules.pro  @quantvault/team-platform-dev
+# docs @quantvault/team-platform-dev
+# gradle  @quantvault/team-platform-dev
+
+# Tools
+# app/src/main/java/com/x8bit/quantvault/data/tools @quantvault/team-tools-dev
+# app/src/main/java/com/x8bit/quantvault/ui/tools  @quantvault/team-tools-dev
+# app/src/test/java/com/x8bit/quantvault/data/tools @quantvault/team-tools-dev
+# app/src/test/java/com/x8bit/quantvault/ui/tools  @quantvault/team-tools-dev
+
+# Vault
+# app/src/main/java/com/x8bit/quantvault/data/vault @quantvault/team-vault-dev
+# app/src/main/java/com/x8bit/quantvault/ui/vault  @quantvault/team-vault-dev
+# app/src/test/java/com/x8bit/quantvault/data/vault @quantvault/team-vault-dev
+# app/src/test/java/com/x8bit/quantvault/ui/vault  @quantvault/team-vault-dev
+
+# Docker-related files
+**/Dockerfile @quantvault/team-appsec @quantvault/dept-bre
+**/*.dockerignore @quantvault/team-appsec @quantvault/dept-bre
+**/entrypoint.sh @quantvault/team-appsec @quantvault/dept-bre
+**/docker-compose.yml @quantvault/team-appsec @quantvault/dept-bre

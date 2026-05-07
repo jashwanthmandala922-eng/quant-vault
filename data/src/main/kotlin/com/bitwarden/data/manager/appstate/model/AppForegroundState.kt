@@ -1,0 +1,21 @@
+package com.quantvault.data.manager.appstate.model
+
+/**
+ * Represents the foreground state of the app.
+ */
+enum class AppForegroundState {
+    /**
+     * Denotes that the app is backgrounded.
+     */
+    BACKGROUNDED,
+
+    /**
+     * Denotes that the app is foregrounded.
+     */
+    FOREGROUNDED,
+}
+
+
+
+
+

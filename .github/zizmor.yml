@@ -1,0 +1,5 @@
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        Quant Vault/gh-actions/*: ref-pin
